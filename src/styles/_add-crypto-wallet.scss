@@ -1,0 +1,381 @@
+.card_top-cryptos {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+
+    thead {
+        tr {
+            display: flex;
+            justify-content: space-between;
+
+            th {
+                padding: 1rem;
+                text-align: start;
+                color: $gray-500;
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            color: $text-base;
+            display: flex;
+            align-items: center;
+            text-align: start;
+            justify-content: space-between;
+
+            td:nth-child(2) {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+
+        tr:nth-child(even) {
+            background-color: $gray-100;
+        }
+
+        td {
+            padding: 1rem;
+        }
+    }
+
+    button {
+        width: 80px;
+        height: 32px;
+        padding: 8px 16px;
+        border-radius: 32px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.bnt_tranfer-box {
+    position: relative;
+    margin-bottom: 10px;
+    div {
+        display: none;
+    }
+    &:hover {
+        div {
+            width: 100px;
+            height: 50px;
+            position: absolute;
+            right: -5px;
+            border-radius: 4px;
+            background-color: $orange-500;
+            color: $white;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            span {
+                width: 15px;
+                height: 15px;
+                background-color: $orange-500;
+                transform: rotate(45deg);
+                position: absolute;
+                top: -5px;
+                right: 40px;
+            }
+        }
+    }
+}
+
+.red {
+    color: $pink-700;
+}
+
+.gren {
+    color: $green-700;
+}
+
+.card_top-crypptos-mobile {
+    display: none;
+}
+
+.button_vier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.button_vier button {
+    background-color: transparent;
+    margin-top: 2rem;
+    color: $orange-500;
+    border: none;
+}
+
+// modal add crypto
+.add-crypto {
+    position: relative;
+    width: 300px;
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-crypto button:nth-child(4) {
+    width: 100%;
+    background-color: $orange-500;
+    color: $white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 32px;
+}
+
+.add-crypto h3 {
+    color: $text-base;
+    margin-bottom: 2rem;
+}
+
+.add-crypto div input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #e0deea;
+}
+
+.select_input {
+    position: relative;
+}
+
+.list-crypto {
+    background-color: $white;
+    border: 1px solid #e0deea;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+}
+
+.items_modal {
+    padding: 5px;
+    border-bottom: 1px solid $gray-200;
+    &:hover {
+        background-color: $gray-200;
+    }
+}
+
+.items_modal div {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    gap: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.select_input input {
+    width: 100%;
+    position: relative;
+    outline: none;
+}
+
+.select_input span button {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button_close {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: -5px;
+    right: -2px;
+    cursor: pointer;
+}
+
+// box transfer
+.transfer-crypto {
+    position: relative;
+}
+
+.transfer-crypto h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: $text-base;
+}
+
+.crypto-select {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 3rem;
+}
+
+.crypto-select div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.crypto-select div label {
+    margin-bottom: 0.2rem;
+    color: $text-base;
+}
+
+.crypto-select div input {
+    position: relative;
+    color: $text-base;
+    outline: none;
+    margin-bottom: 0.5rem;
+    padding: 10px;
+}
+
+.container_select {
+    height: 80px;
+    position: absolute;
+    top: -4rem;
+    background-color: $white;
+    border-radius: 5px;
+    border: 1px solid #e0deea;
+}
+
+.select-items {
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $gray-300;
+    }
+}
+
+.button_transfer button {
+    position: absolute;
+    top: 2.1rem;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn_transfer {
+    width: 100%;
+    padding: 14px 24px;
+    background-color: $orange-500;
+    color: $white;
+    border: none;
+    border-radius: 32px;
+}
+
+.btn_close {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.items_selects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.items_selects p {
+    color: $gray-400;
+}
+
+.items_selects span,
+.items_selects span ul {
+    display: flex;
+    align-items: center;
+}
+
+.items_selects span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.items_selects span ul {
+    gap: 2px;
+}
+
+@media (max-width: 550px) {
+    .card_top-crypptos-wed {
+        display: none;
+    }
+
+    .card_top-crypptos-mobile {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    .box_crypto-mobile {
+        width: 100%;
+        max-width: 200px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 4px 8px 0px #0000001a;
+    }
+
+    .box_crypto-mobile div {
+        display: flex;
+        gap: 0.3rem;
+        padding: 20px;
+        background-color: $orange-100;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .box_crypto-mobile div p:nth-child(1) {
+        color: $text-base;
+    }
+    .box_crypto-mobile div p:nth-child(2) {
+        color: $gray-500;
+    }
+
+    .box_crypto-mobile ul {
+        padding: 20px;
+    }
+
+    .box_crypto-mobile ul:nth-child(2) {
+        border-bottom: 2px solid $gray-200;
+        li:nth-child(1) {
+            color: $gray-500;
+        }
+        li:nth-child(2) {
+            color: $text-base;
+        }
+        li:nth-child(3) {
+            color: $orange-400;
+        }
+    }
+
+    .box_crypto-mobile ul:nth-child(3) {
+        li:nth-child(1) {
+            color: $gray-500;
+        }
+        li:nth-child(2) {
+            color: green;
+        }
+    }
+
+    .box_crypto-mobile button {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        background-color: $orange-500;
+        color: $white;
+        border: none;
+        padding: 8px 26px;
+        border-radius: 32px;
+        margin-bottom: 10px;
+    }
+}

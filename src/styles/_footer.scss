@@ -1,0 +1,33 @@
+.footer{
+    text-align: center;
+    box-shadow: 0px -4px 8px 0px #4D4D4D1A;
+    p{
+        padding: 2rem 0px;
+    }
+}
+
+.footer img {
+    display: none;
+}
+
+@media(max-width: 768px) {
+    .footer img {
+        display: flex;
+    }
+    
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 1rem;
+    }
+}
+
+@media(max-width: 550px) {
+    .footer img {
+        display: none;
+    }
+    .footer {
+      justify-content: center;
+    }
+}

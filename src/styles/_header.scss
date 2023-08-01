@@ -1,0 +1,81 @@
+.header{
+    box-shadow: 0px 4px 8px 0px #4D4D4D1A;
+}
+.header nav{
+    width: 100%;
+    max-width: $desktop;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0px;
+}
+
+.header nav div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header nav div img {
+    border-radius: 50%;
+}
+
+.header nav div  button {
+    color: #5D6670;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.header nav div span {
+    top: 3rem;
+    right: 2.5rem;
+    position: absolute;
+}
+
+.header nav div span button {
+    color: #8C8A97;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #0000000D;
+    padding: 10px 1rem;
+    border-radius: 5px;
+}
+
+.header nav div span button img {
+    border-radius: 0px;
+}
+
+.menu{
+    display: none;
+}
+
+// tablet
+@media (max-width: 768px){
+    .header nav {
+        padding: 2rem 1rem;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 550px){
+    .header nav div  button p {
+    display: none;
+    }
+
+    .header nav div span {
+        top: 3rem;
+        right: 1rem;
+        position: absolute;
+    }
+}
