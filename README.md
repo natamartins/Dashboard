@@ -14,7 +14,7 @@ It also allows the user to transfer their coins! The functionality is just a sim
 
 > Feel free to contribute to this project! Remember that practice makes perfect.
 
-<h2 id="tecnology">💻 Tecnologias</h2>
+<h2 id="tecnology">💻 Technology</h2>
 This project was developed with the following technologies:
 
 - Next.JS
