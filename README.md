@@ -3,58 +3,58 @@
   💼Dashboard
 </h1>
     
-<h2 id="project">📁 Teste Prático </h2>
-<p>Esse é o Dashboard do projeto Coin Synch!
-Esse dashboard é bem simples, contém informações da carteira do usuário,
-mostrando quantas e quais  moedas o mesmo possui em sua carteira.
+<h2 id="project">📁 Practice Test </h2>
+<p>This is the Coin Synch project Dashboard!
+This dashboard is very simple, it contains information about the user's portfolio,
+showing how many and which coins he has in his wallet.
 </p>
-<p>Essa página mostra algumas informações adicionais também, como NFTs News, e outros.
-Permite também que o usuário transfira suas moedas! A funcionalidade é apenas uma simulação.
+<p>This page shows some additional information too, like NFTs News, and others.
+It also allows the user to transfer their coins! The functionality is just a simulation.
 </p>
 
-> Fique à vontade para contribuir neste projeto! Lembre-se que a prática leva a perfeição.
+> Feel free to contribute to this project! Remember that practice makes perfect.
 
 <h2 id="tecnology">💻 Tecnologias</h2>
-Este projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - Next.JS
 - TypeScript
 - Sass
   
-<h2>Boas práticas </h2>
+<h2>Good habits</h2>
 
 - Clean Code
 - Web Responsive
 
-<h2 id="usage">🎯 Utilização</h2>
+<h2 id="usage">🎯 Use</h2>
 
-Esta aplicação está disponível para uso ao fazer login no  [CoinSynch](https://landpage-sigma.vercel.app/), no login digite apenas esse email: NataMartins@gmail.com 
-Você também pode executá-la em sua máquina localmente. Certifique-se de ter o `Node.js` e o `yarn` instalados antes de prosseguir com as etapas abaixo:
+This application is available for use when logging into [CoinSynch](https://landpage-sigma.vercel.app/), when logging in, just type this email: NataMartins@gmail.com
+You can also run it on your machine locally. Make sure you have `Node.js` and `yarn` installed before proceeding with the steps below:
 
-1. Clone o projeto:
+1. Clone the project:
 
 ```
 $ git clone https://github.com/natamartins/Dashboard.git
 ```
 
-2. No seu terminal, acesse a pasta do projeto:
+2. In your termi, access your past folder:
 
 ```
 $ cd Dashboard
 ```
 
-3. Instale as dependências:
+3. Install dependencies:
 
 ```
 $ yarn install
 ```
 
-4. Inicie o projeto:
+4. Start the project:
 
 ```
 $ yarn  dev
 ```
-## rede social
+## Social network
 <div style="display: flex;">
   <a href="https://www.linkedin.com/in/nata-martins/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="margin-right: 2vw" target="_blank"></a>
 </div>
